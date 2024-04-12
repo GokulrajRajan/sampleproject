@@ -1,0 +1,110 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.log>p {
+    padding: 10px;
+    transition: 1s 0s ease-out all;
+    border-radius: 10px;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.log>p:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.log-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.log-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 10px;
+    flex-basis: 100px;
+}
+
+.log-1>p {
+    align-self: flex-start;
+    width: 100%;
+    text-align: center;
+}
+
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.form-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+.form-2>input {
+    transform: scale(1.5);
+    transition: 1s 0s all ease-out;
+
+}
+
+.form-2>div>input[type="checkbox"] {
+    transform: scale(1.5);
+    accent-color: green;
+    margin-top: 20px;
+}
+
+.form-2 input[type="submit"] {
+    margin-top: 15px;
+    background-color: aliceblue;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.form-2 input[type="submit"]:hover {
+    background-color: aqua;
+}
+
+.form-2 input[type="submit"]:focus {
+    background-color: aqua;
+    transform: translateY(5px)
+}
+
+.p-1 {
+    font-size: 12px;
+    text-align: left;
+    line-height: 15px;
+}
